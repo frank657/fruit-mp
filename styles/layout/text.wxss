@@ -1,0 +1,54 @@
+/* SIZE */
+.f12 { font-size: 12rpx; }
+.f14 { font-size: 14rpx; }
+.f16 { font-size: 16rpx; }
+.f18 { font-size: 18rpx; }
+.f20 { font-size: 20rpx; }
+.f22 { font-size: 22rpx; }
+.f24 { font-size: 24rpx; }
+.f26 { font-size: 26rpx; }
+.f28 { font-size: 28rpx; }
+.f30 { font-size: 30rpx; }
+.f32 { font-size: 32rpx; }
+.f36 { font-size: 36rpx; }
+.f40 { font-size: 40rpx; }
+.f48 { font-size: 48rpx; }
+.f60 { font-size: 60rpx; }
+.f72 { font-size: 72rpx; }
+.f84 { font-size: 84rpx; }
+.f84 { font-size: 84rpx; }
+.f96 { font-size: 96rpx; }
+
+.h1 { font-size:88rpx; }
+.h2 { font-size:80rpx; }
+.h3 { font-size: 72rpx; }
+.h4 { font-size: 50rpx;}
+.h5 { font-size: 42rpx}
+.h6 { font-size: 36rpx;}
+.p { font-size: 32rpx;}
+.p1 { font-size: 28rpx;}
+.p2 { font-size: 22rpx;}
+.p3 { font-size: 18rpx;}
+
+/* WEIGHT */
+.fw1 { font-weight: 100; }
+.fw2 { font-weight: 200; }
+.fw3 { font-weight: 300; }
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+.fw7 { font-weight: 700; }
+.fw8 { font-weight: 800; }
+.fw9 { font-weight: 900; }
+.bold { font-weight: 700;}
+.medium { font-weight: 500;}
+.light { font-weight: 300;}
+.thin { font-weight: 100;}
+
+/* TEXT ALIGN */
+.tc { text-align: center;}
+.tl { text-align: left;}
+.tr { text-align: right;}
+
+/* LINE HEIGHT */
+.captalize { text-transform: capitalize; }

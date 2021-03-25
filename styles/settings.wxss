@@ -1,0 +1,24 @@
+@import 'fonts.wxss';
+
+page {
+  /* colors */
+  --white: #fff;
+  --black: #000;
+  --light: #dddddd;
+  --grey: #59595B;
+  --yellow: #ffca00;
+  --orange: #F08302;
+  --red: #cf567c;
+  --purple: #8a5dc0;
+  --blue: #4866b9;
+  --green: #76D5AB;
+  --bottomSafe: env(safe-area-inset-bottom);
+
+  /* other */
+  box-sizing: border-box;
+  /* font-size: 28rpx; */
+}
+
+.container {
+  padding: 40rpx;
+}

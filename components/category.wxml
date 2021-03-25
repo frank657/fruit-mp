@@ -1,0 +1,3 @@
+<view class="p20 icon-l noshrink bg-light radius-full mr20">
+  <image class="w100 h100" src="/images/kiwi.svg"></image>
+</view>

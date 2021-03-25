@@ -1,0 +1,34 @@
+.icon-xxs {
+  height: 10rpx;
+  width: 10rpx;
+}
+
+.icon-xs {
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.icon-s {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.icon-m {
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.icon-l {
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.icon-xl {
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.icon-xxl {
+  height: 150rpx;
+  width: 150rpx;
+}
