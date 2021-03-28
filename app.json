@@ -4,12 +4,13 @@
     "pages/favorites/favorites"
   ],
   "usingComponents": {
-    "category": "/components/category"
+    "category": "/components/category",
+    "card": "/components/card"
   },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "One apple a day",
+    "navigationBarTitleText": "Fruit Recipe App",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

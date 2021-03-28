@@ -1,25 +1,25 @@
-// components/category.js
+// components/card.js
 Component({
   /**
    * Component properties
    */
   properties: {
-    name: String, // Number, Boolean, Array, Object,
+    recipe: Object
   },
 
   /**
    * Component initial data
    */
   data: {
-    selected: false
+    favorited: false
   },
 
   /**
    * Component methods
    */
   methods: {
-    selectCategory() {
-      this.setData({ selected: !this.data.selected })
+    favorite() {
+      this.setData({ favorited: !this.data.favorited })
     }
   }
 })

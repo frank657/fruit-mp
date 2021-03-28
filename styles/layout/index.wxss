@@ -1,7 +1,7 @@
 @import './align';
 @import './border';
 @import './color';
-@import './margin';
+@import './spacing';
 @import './position';
 @import './size';
 @import './text';

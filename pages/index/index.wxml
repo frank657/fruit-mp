@@ -1,30 +1,40 @@
 <view class="container">
   <swiper class="mb30">
-    <swiper-item wx:for="{{3}}" class="bg-red radius30 row-center white">
-      Have a fruit full day!
-    </swiper-item>
+    <swiper-item class="bg-red blue row-center bold">One app a day</swiper-item>
+    <swiper-item class="bg-blue green row-center">Keeps the doctor away</swiper-item>
+    <swiper-item class="bg-green red row-center">Have a fruitful day</swiper-item>
   </swiper>
 
   <scroll-view scroll-x class="mb50">
-    <view class="flex w100">
-      <view wx:for="{{5}}" class="p20 icon-l noshrink bg-light radius-full mr20">
-        <image class="w100 h100" src="/images/kiwi.svg"></image>
-      </view>
+    <view class="w100 flex">
+      <!-- here goes the component -->
+      <category wx:for="{{categories}}" name="{{item}}" />
     </view>
   </scroll-view>
 
-  <view>
-    <view class="h5 mb30">Recipes</view>
+  <card wx:for="{{recipes}}" recipe="{{item}}" />
+</view>
 
-    <view wx:for="{{recipes}}" class="shadow flex justify-start ofh radius30 relative mb30" style="height: 250rpx;">
-      <image class="w40 h100 noshrink" mode="aspectFill" src="{{item.image}}"></image>
-      <view class="p20">
-        <image class="absolute icon-m" style="top: 20rpx; right: 20rpx;" src="/images/heart.svg"></image>
-        <view class="p mb20">{{item.name}}</view>
-        <view class="row-start">
-          <image wx:for="{{item.stars}}" class="icon-s" src="/images/star.svg"></image>
-        </view>
-      </view>
-    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<view class="row-center fixed w100" style="bottom: 100rpx;">
+  <view class="row-center px30 py10 radius-full bg-light">
+    <view>with</view>
+    <image class="icon-s mx10" src="/images/heart-filled.svg"></image>
+    <view>by Codesmiths</view>
   </view>
 </view>

@@ -3,7 +3,8 @@ import Recipes from 'recipes';
 
 Page({
   data: {
-    recipes: Recipes
+    recipes: Recipes,
+    categories: ['apple', 'orange', 'kiwi', 'mango']
   },
 
   onLoad() {

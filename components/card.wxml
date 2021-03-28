@@ -1,0 +1,10 @@
+<view class="w100 radius30 flex ofh shadow relative mb20" style="height: 250rpx;">
+  <image src="{{recipe.image}}" class="w40 h100" mode="aspectFill"></image>
+  <view class="p20">
+    <image src="/images/heart{{favorited?'-filled':''}}.svg" class="absolute icon-m" style="right: 20rpx; top: 20rpx;" bindtap="favorite"></image>
+    <view class="mb20">{{recipe.name}}</view>
+    <view class="flex">
+      <image wx:for="{{recipe.stars}}" src="/images/star.svg" class="icon-s mr"></image>
+    </view>
+  </view>
+</view>

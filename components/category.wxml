@@ -1,3 +1,6 @@
-<view class="p20 icon-l noshrink bg-light radius-full mr20">
-  <image class="w100 h100" src="/images/kiwi.svg"></image>
+<view class="column-center mr20">
+  <view class="icon-l p20 bg-{{selected?'red':'light'}} radius-full noshrink mb10" bindtap="selectCategory">
+    <image src="/images/{{name}}.svg" mode="aspectFit" class="w100 h100"></image>
+  </view>
+  <view>{{name}}</view>
 </view>

@@ -1,9 +1,5 @@
 <view class="container">
-  <swiper class="mb30">
-    <swiper-item wx:for="{{3}}" class="bg-red radius30 row-center white">
-      Have a fruit full day!
-    </swiper-item>
-  </swiper>
+  <banner />
 
   <scroll-view scroll-x class="mb50">
     <view class="flex w100">
